@@ -1,19 +1,24 @@
 {
-    "name": "twent/php-mvc-framework",
-    "description": "My 1st PHP MVC Framework [tutorials by Codeholic]",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "app\\": "./"
-        }
-    },
-    "authors": [
-        {
-            "name": "twent",
-            "email": "twentprod@gmail.com"
-        }
-    ],
-    "require": {
-        "vlucas/phpdotenv": "^5.3"
+  "name": "twent/php-mvc-framework",
+  "description": "My 1st PHP MVC Framework [Tutorial by TheCodeholic]",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
     }
+  },
+  "authors": [
+    {
+      "name": "Zura Sekhniashvili",
+      "email": "zurasekhniashvili@gmail.com"
+    },
+    {
+      "name": "Yaroslav Kalegin",
+      "email": "i@twent.ru"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.3",
+    "twent/php-mvc-core": "dev-main"
+  }
 }

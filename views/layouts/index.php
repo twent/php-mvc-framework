@@ -1,6 +1,6 @@
 <?php
 
-use app\core\App;
+use twent\mvccore\App;
 
 ?>
 

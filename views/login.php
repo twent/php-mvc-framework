@@ -1,10 +1,10 @@
 <?php
 
-/** @var $this \app\core\View */
+/** @var $this \twent\mvccore\View */
 $this->title = 'Вход';
 
 /** @var @model \app\models\User */
-use app\core\form\Form;
+use twent\mvccore\form\Form;
 
 echo '<h1>Вход</h1>';
 $form = Form::begin('', 'post');

@@ -2,14 +2,14 @@
 
 namespace app\models;
 
-use app\core\UserModel;
+use twent\mvccore\UserModel;
 
 class User extends UserModel
 {
     CONST STATUS_INACTIVE = 0;
     CONST STATUS_ACTIVE = 1;
     CONST STATUS_DELETED = 2;
-    
+
     public int $id = 0;
     public string $name = '';
     public string $lastname = '';
@@ -72,4 +72,4 @@ class User extends UserModel
         return $this->name . ' ' . $this->lastname;
     }
 
-} 
+}

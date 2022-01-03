@@ -1,8 +1,8 @@
 <?php
-/** @var $this \app\core\View */
+/** @var $this \twent\mvccore\View */
 /** @var $model \app\models\ContactForm */
 
-use app\core\form\{Form,TextareaField};
+use twent\mvccore\form\{Form,TextareaField};
 
 $this->title = 'Обратная связь';
 

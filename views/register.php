@@ -1,8 +1,8 @@
 <?php
 
-use app\core\form\Form;
+use twent\mvccore\form\Form;
 
-/** @var $this \app\core\View */
+/** @var $this \twent\mvccore\View */
 $this->title = 'Регистрация';
 
 echo "<h1>$this->title</h1>";

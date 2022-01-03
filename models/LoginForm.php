@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\App;
-use app\core\Model;
+use twent\mvccore\App;
+use twent\mvccore\Model;
 
 class LoginForm extends Model
 {
@@ -40,5 +40,5 @@ class LoginForm extends Model
 
         return App::$app->login($user);
     }
-    
+
 }

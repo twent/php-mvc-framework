@@ -1,12 +1,12 @@
 <?php
 
 namespace app\controllers;
-use app\core\{App,Controller,Request,Response};
+use twent\mvccore\{App,Controller,Request,Response};
 use app\models\ContactForm;
 
 class SiteController extends Controller
-{   
-    public function index() 
+{
+    public function index()
     {
         $params = [
             'title' => 'Главная',

@@ -1,6 +1,6 @@
 <?php
 
-use app\core\App;
+use twent\mvccore\App;
 
 class m0001_initial_users
 {

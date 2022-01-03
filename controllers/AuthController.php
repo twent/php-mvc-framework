@@ -2,19 +2,19 @@
 
 namespace app\controllers;
 
-use app\core\{App, Controller, Request, Response};
+use twent\mvccore\{App, Controller, Request, Response};
 use app\models\{User, LoginForm};
-use app\core\middlewares\AuthMiddleware;
+use twent\mvccore\middlewares\AuthMiddleware;
 
 class AuthController extends Controller
 {
-    public function __construct() 
+    public function __construct()
     {
         $this->registerMiddleware(new AuthMiddleware(['profile']));
     }
 
     public function login(Request $request, Response $response)
-    {   
+    {
         $loginForm = new LoginForm();
         if ($request->isPost()) {
             $loginForm->loadData($request->data());

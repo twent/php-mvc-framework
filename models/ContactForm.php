@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\App;
-use app\core\Model;
+use twent\mvccore\App;
+use twent\mvccore\Model;
 
 class ContactForm extends Model
 {
@@ -34,5 +34,5 @@ class ContactForm extends Model
         // Логика отпраки контактной формы
         return true;
     }
-    
+
 }

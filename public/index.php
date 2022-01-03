@@ -1,6 +1,6 @@
 <?php
 
-use app\core\App;
+use twent\mvccore\App;
 use app\controllers\{SiteController, AuthController};
 use app\models\User;
 
@@ -18,6 +18,10 @@ $config = [
 ];
 
 $app = new App(dirname(__DIR__), $config);
+
+$app->on(App::EVENT_BEFORE_REQUEST, function(){
+    echo "Before request from second installation";
+});
 
 $app->router->get('/', [SiteController::class, 'index']);
 
