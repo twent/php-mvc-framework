@@ -1,9 +1,9 @@
 # PHP MVC framework
-Минималистичный PHP MVC фреймворк, созданный по серии уроков [@thecodeholic](https://github.com/thecodeholic) в обзразовательных целях.
+Минималистичный PHP MVC фреймворк, созданный по серии уроков [@thecodeholic](https://github.com/thecodeholic) в обзразовательных целях. Создан на основе репозитория [TheCodeholic/PHP-MVC-Framework](https://github.com/thecodeholic/php-mvc-framework)
 В дальнейшем буду вносить свои изменения.
 
 ## Фреймворк не предназначен для продакшена. Если Вы применяете его в реальных проектах, то принимаете на себя все риски.
-**Ядро фреймворка**: [php-mvc-core](https://github.com/twent/php-mvc-core) (создан на основе репозитория [TheCodeholic/PHP-MVC-Framework](https://github.com/thecodeholic/php-mvc-framework))
+**Ядро фреймворка**: [php-mvc-core](https://github.com/twent/php-mvc-core) (создан на основе [TheCodeholic/tc-php-mvc-core](https://github.com/thecodeholic/tc-php-mvc-core))
 
 ----
 ## Установка
@@ -17,5 +17,4 @@
 7. Запустите PHP сервер с помощью команды `php -S 127.0.0.1:8080`
 8. Откройте в браузере http://127.0.0.1:8080
 
-
-> Этот проект создан на основе серии уроков от [@thecodeholic](https://github.com/thecodeholic) на Youtube "[Build PHP MVC Framework](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)".
+> Этот проект создан по серии уроков от [@thecodeholic](https://github.com/thecodeholic) на Youtube "[Build PHP MVC Framework](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)".
