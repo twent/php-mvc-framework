@@ -3,4 +3,4 @@ vendor
 .vscode
 .idea
 composer.lock
-composer.lock
+.gitattributes
