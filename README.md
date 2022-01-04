@@ -1,8 +1,9 @@
 # PHP MVC framework
-Минималистичный PHP MVC фреймворк, созданный по серии уроков [@thecodeholic](https://github.com/thecodeholic) в обзразовательных целях. В дальнейшем буду вносить свои изменения.
+Минималистичный PHP MVC фреймворк, созданный по серии уроков [@thecodeholic](https://github.com/thecodeholic) в обзразовательных целях.
+В дальнейшем буду вносить свои изменения.
 
 ## Фреймворк не предназначен для продакшена. Если Вы применяете его в реальных проектах, то принимаете на себя все риски.
-**Связанный репозиторий**: [php-mvc-core](https://github.com/twent/php-mvc-core) (на основе https://github.com/thecodeholic/tc-php-mvc-core)
+**Ядро фреймворка**: [php-mvc-core](https://github.com/twent/php-mvc-core) (создан на основе репозитория [TheCodeholic/PHP-MVC-Framework](https://github.com/thecodeholic/php-mvc-framework))
 
 ----
 ## Установка
@@ -17,4 +18,4 @@
 8. Откройте в браузере http://127.0.0.1:8080
 
 
-> Проект создан на основе серии уроков от [@thecodeholic](https://github.com/thecodeholic) на Youtube "[Build PHP MVC Framework](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)". https://github.com/thecodeholic/php-mvc-framework
+> Этот проект создан на основе серии уроков от [@thecodeholic](https://github.com/thecodeholic) на Youtube "[Build PHP MVC Framework](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)".
